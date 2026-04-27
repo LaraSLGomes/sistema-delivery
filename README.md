@@ -1,64 +1,62 @@
 # 🛵 Delivery App - Full Stack Project
 
-Um sistema completo de delivery de comida desenvolvido para gerenciar restaurantes, clientes e pedidos. O projeto foi estruturado para simular o fluxo real de um aplicativo de entregas, permitindo o cadastro de parceiros, criação de pedidos com múltiplos itens e o gerenciamento de status em tempo real.
+A comprehensive food delivery system designed to manage restaurants, customers, and orders. This project was built to simulate the real-world workflow of a delivery application, enabling partner registration, multi-item order creation, and real-time status management.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack
 
 ### Frontend
-* **React + Vite**: Framework para construção de interfaces rápidas e reativas.
-* **Tailwind CSS**: Estilização moderna e responsiva.
-* **Axios**: Cliente HTTP para comunicação com o Backend.
-* **React Router Dom**: Gerenciamento de rotas e navegação (SPA).
+* **React + Vite**: Framework for building fast and reactive user interfaces.
+* **Tailwind CSS**: Modern and responsive utility-first CSS framework.
+* **Axios**: Promise-based HTTP client for seamless Backend communication.
+* **React Router Dom**: Routing management and SPA (Single Page Application) navigation.
 
 ### Backend
-* **Node.js**: Ambiente de execução JavaScript.
-* **Express**: Framework para criação da API REST.
-* **MySQL (mysql2)**: Banco de dados relacional.
-* **Arquitetura MVC**: Organização do código em Model, View e Controller.
-* **Dotenv**: Gerenciamento de variáveis de ambiente.
-* **Cors**: Configuração de segurança para acesso cross-origin.
+* **Node.js**: JavaScript runtime environment for server-side logic.
+* **Express**: Fast and minimalist web framework for building the REST API.
+* **MySQL (mysql2)**: Relational database management system.
+* **MVC Architecture**: Code organized into Model, View, and Controller layers for better scalability.
+* **Dotenv**: Environment variable management for security and configuration.
+* **CORS**: Security configuration for cross-origin resource sharing.
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Key Features
 
-* ✅ **Gestão de Restaurantes:** Cadastro e listagem de parceiros e tipos de cozinha.
-* ✅ **Gestão de Clientes:** Registro de usuários com endereço de entrega.
-* ✅ **Criação de Pedidos**
-* ✅ **Controle de Status**
-
----
-
-## 📱 Guia de Uso (Passo a Passo)
-
-Para testar o fluxo completo da aplicação, siga estas etapas na interface:
-
-1.  **Cadastros Iniciais:**
-    * Vá na aba **Restaurantes** e cadastre um novo estabelecimento.
-    * Vá na aba **Clientes** e cadastre um cliente.
-
-2.  **Realizar Pedido:**
-    * Acesse a aba **Fazer Pedido**.
-    * Selecione o Cliente e o Restaurante que você criou.
-    * Adicione itens ao carrinho.
-    * Clique em **Finalizar Pedido**.
-
-3.  **Gerenciar Status:**
-    * Após finalizar, o pedido aparecerá na lista "Pedidos em Andamento" com status **Em Preparo** (Amarelo).
-    * Clique no botão **"Mandar Entregar"** para mudar o status para **A Caminho** (Azul).
-    * Clique no botão **"Confirmar Entrega"** para finalizar como **Entregue** (Verde).
+* ✅ **Restaurant Management:** Register and list partners and cuisine types.
+* ✅ **Customer Management:** User registration including delivery address details.
+* ✅ **Order Placement:** Dynamic order creation with shopping cart functionality.
+* ✅ **Status Control:** Real-time tracking and management of the delivery lifecycle.
 
 ---
 
-## 🗄️ Configuração do Banco de Dados
+## 📱 Usage Guide (Step-by-Step)
 
-O projeto utiliza **MySQL**. Antes de rodar a aplicação, execute o script delivery.sql no seu MySQL Workbench ou terminal para criar a estrutura
+To test the application's complete workflow, follow these steps in the interface:
+
+1. **Initial Setup:**
+    * Navigate to the **Restaurants** tab and register a new establishment.
+    * Navigate to the **Customers** tab and register a user.
+
+2. **Placing an Order:**
+    * Access the **Place Order** tab.
+    * Select the Customer and the Restaurant you created.
+    * Add items to the cart.
+    * Click **Checkout**.
+
+3. **Managing Status:**
+    * Once finalized, the order will appear in the "Active Orders" list with a **Preparing** status (Yellow).
+    * Click **"Dispatch for Delivery"** to change the status to **In Transit** (Blue).
+    * Click **"Confirm Delivery"** to mark it as **Delivered** (Green).
 
 ---
 
-### 👨‍💻 Autores
+## 🗄️ Database Configuration
+
+This project uses **MySQL**. Before running the application, execute the `delivery.sql` script in your MySQL Workbench or terminal to set up the required schema and tables.
+
+---
+
+### 👨‍💻 Authors
 
 - **João Pedro Soares Franco** - [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-pedro-franco-545436221/) - [GitHub](https://github.com/jotapz)
 - **Lara Stephanny** - [LinkedIn](https://www.linkedin.com/in/lara-stephanny-0317a82b5/) - [GitHub](https://github.com/LaraSLGomes)
-
-
